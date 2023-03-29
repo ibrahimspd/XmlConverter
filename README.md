@@ -7,7 +7,11 @@ To use this program, you must have Maven and Java installed on your system. Once
 
 Clone or download the repository to your local machine.
 Open a terminal or command prompt and navigate to the root directory of the project.
-Run the command mvn clean install to build the project.
+Run the command 
+```lua
+mvn clean install
+```
+in the root directory of this project to build.
 Navigate to the target directory.
 Run the command java -jar xml-converter-1.0-SNAPSHOT.jar input-file output-file to convert your input file to an XML file. Replace input-file with the path to your input file, and output-file with the path where you want to save your output file.
 For example, if your input file is located at /path/to/input.txt and you want to save your output file as output.xml, you would run the command:
